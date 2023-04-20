@@ -89,6 +89,10 @@ rprint("\n" + "[cyan]*[/cyan]" * 40 + "[yellow][u]Affichage du graphe[/u][/yello
 s1.draw('maxpar')
 rprint(f"[blue]maxpar.png[/blue] est disponible ")
 
+# Test randomisé de déterminisme
+rprint("\n" + "[cyan]*[/cyan]" * 40 + "[yellow][u]Test randomisé de déterminisme[/u][/yellow]" + "[cyan]*[/cyan]" * 43 + '\n')
+s1.detTestRnd(5)
+
 # Coût du parallélisme
 rprint("\n" + "[cyan]*[/cyan]" * 40 + "[yellow][u]Coût du parallélisme[/u][/yellow]" + "[cyan]*[/cyan]" * 53 + '\n')
 s1.parCost(9999)
