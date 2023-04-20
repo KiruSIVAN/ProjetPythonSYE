@@ -151,5 +151,4 @@ class TaskSystem:
                 if len(set(values)) > 1:
                     rprint(f"[red]Le système de tâches n'est pas déterministe pour la variable {var}[/red]")
                     return
-        
         rprint("[green]Le système de tâches est déterministe[/green]")
