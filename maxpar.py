@@ -99,7 +99,7 @@ class TaskSystem:
                 my_graph.edge(dep, task)
         my_graph.render(filename)
 
-    def parCost(self, num_runs=5):
+    def parCost(self, num_runs):
         """
         La méthode parCost mesure le temps d'exécution en séquentiel et en parallèle, puis affiche la différence de temps d'exécution entre les deux modes.
         """
