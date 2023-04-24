@@ -63,3 +63,8 @@ s1 = TaskSystem([t1, t2, t3, t4, t5, t6, tSomme], {"T1": [], "T2": ["T1"], "T3" 
 s1 est un système de tâches qui prend deux paramètres. En premier argument, l'ensemble des tâches. Le dictionnaire de précédence passé en deuxième argument au constructeur précise que la tâche dont le nom est "T2" doit s’exécuter après celle qui a le nom "T1", la tâche "T3" doit s’exécuter après celle qui a le nom "T2", la tâche "T5" doit s’exécuter après celle qui a le nom "T4", la tâche "T6" doit s’exécuter après celle qui a le nom "T4", De la même façon, la tâche dont le nom est "somme" doit s’exécuter après les tâches "T5" et "T6".
 
 ![Le digraph obtenu de s1 à l'aide du GraphViz ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/digraph.png)
+
+
+![Le temps d'exécution en parallèle et en séquentielle ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/R%C3%A9sultat/temps.png)
+
+![Le résultat attendu dans la console ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/R%C3%A9sultat/R%C3%A9sultat.png)
