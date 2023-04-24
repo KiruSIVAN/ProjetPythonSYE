@@ -55,7 +55,7 @@ Développer une libraire en Python pour automatiser la parallélisation maximale
 ## Fichier test_maxpar.py :
 Le fichier permet de réaliser une parallélisation automatique. Il permet d'effectuer des tâches séquentielles et parallèles ainsi que de créer un graphe, effectuer un test de déterminisme et calculer le coût du parallélisme.
 
-# Construction du système de tâches
+### Construction du système de tâches ###
 s1 = TaskSystem([t1, t2, t3, t4, t5, t6, tSomme], {"T1": [], "T2": ["T1"], "T3" : ["T2"], "T4" : [], "T5" : ["T4"],"T6" : [ "T4"], "somme": [ "T5", "T6" ]})
 
 ![Le graphe orienté obtenu de s1 à l'aide du GraphViz ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/maxpar.png)
