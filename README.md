@@ -65,5 +65,5 @@ s1 est un système de tâches qui prend deux paramètres. En premier argument, l
 ![Le digraph obtenu de s1 à l'aide du GraphViz ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/digraph.png)
 
 ### L'Affichage ###
-![Le résultat attendu dans la console ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/R%C3%A9sultat/R%C3%A9sultat%20att.png)
+![Le résultat attendu dans la console ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/R%C3%A9sultat/R%C3%A9sultat.png)
 ![Le temps d'exécution en parallèle et en séquentielle ](https://raw.githubusercontent.com/KiruSIVAN/ProjetPythonSYE/main/R%C3%A9sultat/temps.png)
