@@ -1,1 +1,1 @@
-Les résultats attendus :
+Les résultats attendus dans la console :
